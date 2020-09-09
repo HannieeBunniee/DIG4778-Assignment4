@@ -12,3 +12,17 @@ D:\Documents\Githubs\DIG4778-AssignmentZork\Zork\Zork\obj\Debug\net5.0\Zork.cspr
 D:\Documents\Githubs\DIG4778-AssignmentZork\Zork\Zork\obj\Debug\net5.0\Zork.dll
 D:\Documents\Githubs\DIG4778-AssignmentZork\Zork\Zork\obj\Debug\net5.0\Zork.pdb
 D:\Documents\Githubs\DIG4778-AssignmentZork\Zork\Zork\obj\Debug\net5.0\Zork.genruntimeconfig.cache
+D:\Documents\Githubs\DIG4778-AssignmentZork\Zork\bin\Debug\net5.0\Zork.exe
+D:\Documents\Githubs\DIG4778-AssignmentZork\Zork\bin\Debug\net5.0\Zork.deps.json
+D:\Documents\Githubs\DIG4778-AssignmentZork\Zork\bin\Debug\net5.0\Zork.runtimeconfig.json
+D:\Documents\Githubs\DIG4778-AssignmentZork\Zork\bin\Debug\net5.0\Zork.runtimeconfig.dev.json
+D:\Documents\Githubs\DIG4778-AssignmentZork\Zork\bin\Debug\net5.0\Zork.dll
+D:\Documents\Githubs\DIG4778-AssignmentZork\Zork\bin\Debug\net5.0\Zork.pdb
+D:\Documents\Githubs\DIG4778-AssignmentZork\Zork\obj\Debug\net5.0\Zork.csprojAssemblyReference.cache
+D:\Documents\Githubs\DIG4778-AssignmentZork\Zork\obj\Debug\net5.0\Zork.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Githubs\DIG4778-AssignmentZork\Zork\obj\Debug\net5.0\Zork.AssemblyInfoInputs.cache
+D:\Documents\Githubs\DIG4778-AssignmentZork\Zork\obj\Debug\net5.0\Zork.AssemblyInfo.cs
+D:\Documents\Githubs\DIG4778-AssignmentZork\Zork\obj\Debug\net5.0\Zork.csproj.CoreCompileInputs.cache
+D:\Documents\Githubs\DIG4778-AssignmentZork\Zork\obj\Debug\net5.0\Zork.dll
+D:\Documents\Githubs\DIG4778-AssignmentZork\Zork\obj\Debug\net5.0\Zork.pdb
+D:\Documents\Githubs\DIG4778-AssignmentZork\Zork\obj\Debug\net5.0\Zork.genruntimeconfig.cache

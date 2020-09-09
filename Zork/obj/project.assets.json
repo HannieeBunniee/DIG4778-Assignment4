@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\Githubs\\DIG4778-AssignmentZork\\Zork\\Zork\\Zork.csproj",
+      "projectUniqueName": "D:\\Documents\\Githubs\\DIG4778-AssignmentZork\\Zork\\Zork.csproj",
       "projectName": "Zork",
-      "projectPath": "D:\\Documents\\Githubs\\DIG4778-AssignmentZork\\Zork\\Zork\\Zork.csproj",
+      "projectPath": "D:\\Documents\\Githubs\\DIG4778-AssignmentZork\\Zork\\Zork.csproj",
       "packagesPath": "C:\\Users\\hanni\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\Githubs\\DIG4778-AssignmentZork\\Zork\\Zork\\obj\\",
+      "outputPath": "D:\\Documents\\Githubs\\DIG4778-AssignmentZork\\Zork\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hanni\\AppData\\Roaming\\NuGet\\NuGet.Config",
