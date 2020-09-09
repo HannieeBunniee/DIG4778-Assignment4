@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Documents\\Githubs\\DIG4778-AssignmentZork\\Zork\\Zork\\Zork.csproj": {}
+  },
+  "projects": {
+    "D:\\Documents\\Githubs\\DIG4778-AssignmentZork\\Zork\\Zork\\Zork.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\Githubs\\DIG4778-AssignmentZork\\Zork\\Zork\\Zork.csproj",
+        "projectName": "Zork",
+        "projectPath": "D:\\Documents\\Githubs\\DIG4778-AssignmentZork\\Zork\\Zork\\Zork.csproj",
+        "packagesPath": "C:\\Users\\hanni\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\Githubs\\DIG4778-AssignmentZork\\Zork\\Zork\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hanni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.8.20417.9\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
