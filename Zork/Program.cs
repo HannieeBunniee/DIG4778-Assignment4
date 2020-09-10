@@ -5,6 +5,7 @@ using System; //use this so u dont have to type system. over n over
 
 namespace Zork
 {
+
     enum Commands //enum compare faster than string
     {
         QUIT,
@@ -22,7 +23,36 @@ namespace Zork
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Zork!");
-            string inputString = Console.ReadLine(); //ReadLine take no arguements and return player's input as string (literally rewrite the command we input
+            Commands command = Commands.UNKNOWN;
+            while (command != Commands.QUIT) //making the game keep looping and wont end unless quit
+            {
+                Console.Write("> ");
+                command = ToCommand(Console.ReadLine().Trim());
+
+                string outputString;
+                switch (command)
+                {
+                    case Commands.QUIT:
+                        outputString = "Thanks for playing!";
+                        break;
+                    case Commands.LOOK:
+                        outputString = "This is an open dield west of a white house, with a boarded front door. A rubber mat saying 'Welcome to Zork' lies by the door.";
+                        break;
+                    case Commands.NORTH:
+                    case Commands.SOUTH:
+                    case Commands.EAST:
+                    case Commands.WEST:
+                        outputString = $"You moved {command}";
+                        break;
+                    default:
+                        outputString = "Unknown Command";
+                        break;
+                }
+                Console.WriteLine(outputString);
+            }
+            //string inputString = Console.ReadLine(); //ReadLine take no arguements and return player's input as string (literally rewrite the command we input
+
+            //professor, at this point you already confused me with a bunch of codes that could do the same...
 
             /*
             inputString = inputString.ToUpper(); // this line make sure the string case-sensitive are the same(so u can use look instead of typing LOOK) 
@@ -41,11 +71,11 @@ namespace Zork
             }
             */
 
-            Commands command = ToCommand(inputString.Trim().ToUpper()); //calling the ToCommand function v
-            Console.WriteLine(command);
+            //Commands command = ToCommand(inputString.Trim().ToUpper()); //calling the ToCommand function v
+            //Console.WriteLine(command);
         }
-        
-        /*private static Commands ToCommand(string commandString) //This method will accept, as parameter, a string to attempt to convert into commands enum value
+        /*
+        private static Commands ToCommand(string commandString) //This method will accept, as parameter, a string to attempt to convert into commands enum value
         {
             Commands command;
             switch (commandString)
@@ -113,5 +143,6 @@ namespace Zork
 
         }*/
         private static Commands ToCommand(string commandString) => (Enum.TryParse<Commands>(commandString, true, out Commands result) ? result : Commands.UNKNOWN);
+        // ^ somewhere in there have the bool statement to ignore case so it can read lowecase without ToUpper line code
     }
 }
