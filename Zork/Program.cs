@@ -6,16 +6,7 @@ using System; //use this so u dont have to type system. over n over
 namespace Zork
 {
 
-    enum Commands //enum compare faster than string
-    {
-        QUIT,
-        LOOK,
-        NORTH,
-        SOUTH,
-        EAST,
-        WEST,
-        UNKNOWN
-    }
+    // made the new class Commands.cs and pasted the code
 
 
     class Program
@@ -36,7 +27,7 @@ namespace Zork
                         outputString = "Thanks for playing!";
                         break;
                     case Commands.LOOK:
-                        outputString = "This is an open dield west of a white house, with a boarded front door. A rubber mat saying 'Welcome to Zork' lies by the door.";
+                        outputString = "This is an open field west of a white house, with a boarded front door. A rubber mat saying 'Welcome to Zork' lies by the door.";
                         break;
                     case Commands.NORTH:
                     case Commands.SOUTH:
